@@ -6,12 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sing Up</title>
-	<link rel="stylesheet" href="http://localhost/php1_calcv4/css/login.css">
+	<link rel="stylesheet" href="http://localhost/Credit-Calc-szablonowanie/css/login.css">
 </head>
 <body>
 	
 <div class="login">
-<form action="http://localhost/php1_calcv4/app/security/login.php" method="post" class="pure-form pure-form-stacked">
+<form action="http://localhost/Credit-Calc-szablonowanie/app/security/login.php" method="post" class="pure-form pure-form-stacked">
     <input type="text" placeholder="Username" id="id_login" name="login" value=<?php out($form['login']) ?> >  
   <input type="text" placeholder="Password" id="id_pass" name="pass"  >  
   <input type="submit" value="Sign In">
@@ -36,7 +36,7 @@ if (isset($err)) {
 
 <div class="shadow"></div>
 
-<div class="txt"><h1>pw:vip vip / user user</h1></div>
+<div class="txt"><h1>pass:vip vip / user user</h1></div>
 
 </body>
 </html>

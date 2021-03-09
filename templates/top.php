@@ -7,17 +7,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://localhost/php1_calcv4/css/layouts/marketing.css">
-    <link rel="stylesheet" href="http://localhost/php1_calcv4/css/main.css">
+    <link rel="stylesheet" href="http://localhost/Credit-Calc-szablonowanie/css/layouts/marketing.css">
+    <link rel="stylesheet" href="http://localhost/Credit-Calc-szablonowanie/css/main.css">
     
     <?php if ($hide_intro) { ?>
     
-    <link rel="stylesheet" href="http://localhost/php1_calcv4/css/style_hide_intro.css">
+    <link rel="stylesheet" href="http://localhost/Credit-Calc-szablonowanie/css/style_hide_intro.css">
     <?php } ?>
     
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-	<script src="http://localhost/php1_calcv4/js/jquery.min.js"></script>
-	<script src="http://localhost/php1_calcv4/js/softscroll.js"></script>
+	<script src="http://localhost/Credit-Calc-szablonowanie/js/jquery.min.js"></script>
+	<script src="http://localhost/Credit-Calc-szablonowanie/js/softscroll.js"></script>
 </head>
 <body>
 
@@ -26,10 +26,8 @@
         <a class="pure-menu-heading" href="">START</a>
         <ul>
             <li class="pure-menu-selected"><a href="#app_top">SCROLL UP</a></li>
-            <li class="pure-menu-selected"><a href="http://localhost/php1_calcv4/app/security/login.php">SIGN UP</a></li>
-            <li class="pure-menu-selected"><a href="http://localhost/php1_calcv4/app/security/logout.php">LOG OUT</a></li>
-
-            <li class="pure-menu-selected"> <?php print_r($_SESSION); ?> </li>
+            <li class="pure-menu-selected"><a href="http://localhost/Credit-Calc-szablonowanie/app/security/login.php">SIGN UP</a></li>
+            <li class="pure-menu-selected"><a href="http://localhost/Credit-Calc-szablonowanie/app/security/logout.php">LOG OUT</a></li>
         </ul>
     </div>
 </div>

@@ -58,7 +58,7 @@ if (!validateLogin($form,$err)) {
 	
 	
 	
-	header("Location: http://localhost/php1_calcv4");
+	header("Location: http://localhost/Credit-Calc-szablonowanie");
 	
 
 }

@@ -7,6 +7,6 @@ session_destroy();
 
 // 2. przekieruj lub "forward" na stronę główną
 //redirect
-header("Location: http://localhost/php1_calcv4");
+header("Location: http://localhost/Credit-Calc-szablonowanie");
 //"forward"
 //include _ROOT_PATH.'/index.php';
